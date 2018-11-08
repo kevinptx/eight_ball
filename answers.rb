@@ -1,7 +1,7 @@
-class Answer
-  answer_randomizer
+require "pry"
 
-  def answer_randomizer
+class Answer
+  def initialize
     @answers = [
       "You win!",
       "You made it!",
@@ -12,9 +12,5 @@ class Answer
       "It's a great day!",
       "This is your year!",
     ]
-    randomize = @answers.rand
-    puts randomize
   end
 end
-
-Answer.new
