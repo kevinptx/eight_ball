@@ -1,7 +1,7 @@
 require "pry"
 
 class Answer
-  attr_accessor :answers 
+  attr_accessor :answers
 
   def initialize
     @answers = [
@@ -22,7 +22,7 @@ class Answer
   #   puts "*******MENU********"
   #   puts "1) View answer list\n2) Add new answer\n3) Reset Answer"
   #   user_choice = gets.strip.to_i
-    
+
   #   case user_choice
   #   when 1
   #     binding.pry
